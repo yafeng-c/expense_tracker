@@ -1,0 +1,10 @@
+CREATE DATABASE pern_transactions;
+CREATE USER test WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO test;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO test;
+CREATE TABLE transactions(
+    trans_id SERIAL PRIMARY KEY,
+    item VARCHAR,
+    price DOUBLE PRECISION,
+    record_time DATE
+);

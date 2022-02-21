@@ -1,0 +1,71 @@
+.title {
+  margin-left: 5px;
+  color: #059862;
+}
+.addRow {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.addRow input {
+  margin-right: 5px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #059862;
+}
+
+.addRow button {
+  margin-right: 5px;
+  width: 1.8rem;
+  background: #059862;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  height: 1.8rem;
+  font-size: 1.5rem;
+}
+.tableContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  border-bottom: 1pt solid #059862;
+  color: #059862;
+}
+tr {
+  line-height: 30px;
+}
+tr:hover td {
+  background: #d9eee1;
+}
+th,
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.deleteButton {
+  margin-left: 5px;
+  width: 6rem;
+  background: #b9152b;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  height: 1.8rem;
+}
+
+.sumRow {
+  margin-top: 5px;
+  border-top: 1.5px solid #059862;
+  display: flex;
+  justify-content: right;
+  padding-right: 5px;
+  font-weight: 1000;
+}
